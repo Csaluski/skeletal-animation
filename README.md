@@ -1,38 +1,9 @@
-# create-svelte
+# Skeletal animation blog
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a series of blog posts where I build up a toy skeletal animation system for the web. 
+I started this project to learn Svelte and become more familiar with making a real web program. 
 
-## Creating a project
+The live version of this site can hopefully be found on my website, at [http://enfys.xyz/blog/animation](http://enfys.xyz/blog/animation). 
+If it's not available it's probably because I messed something up.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To run this site locally, clone the repo, then run `npm install` and `npm run dev`, then visit the localhost URL provided. 
